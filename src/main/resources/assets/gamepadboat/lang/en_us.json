@@ -1,0 +1,12 @@
+{
+  "text.autoconfig.gamepadboat.title": "Gamepad Boat Configuration",
+  
+  "text.autoconfig.gamepadboat.option.controllerID": "Controller ID",
+  "text.autoconfig.gamepadboat.option.controllerID.@Tooltip": "Which controller to pick, uses GLFW joystick identifiers.",
+  "text.autoconfig.gamepadboat.option.pollRate": "Gamepad Poll Rate",
+  "text.autoconfig.gamepadboat.option.pollRate.@Tooltip": "How many times per second should the\n gamepad be polled for new data.",
+  "text.autoconfig.gamepadboat.option.pwmCycle": "PWM Cycle Length",
+  "text.autoconfig.gamepadboat.option.pwmCycle.@Tooltip": "Length of the full cycle in which the\n key strokes are sent, keep below poll rate.",
+  "text.autoconfig.gamepadboat.option.deadzone": "Deadzone",
+  "text.autoconfig.gamepadboat.option.deadzone.@Tooltip": "Ignored center radius for analog input"
+}

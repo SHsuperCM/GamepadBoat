@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "gamepadboat",
+  "version": "${version}",
+  "name": "GamepadBoat",
+  "description": "Allows controlling boats using a gamepad",
+  "website": "https://www.curseforge.com/minecraft/mc-mods/gamepad-boat",
+  "icon": "gamepadboat_logo.png",
+  "authors": [
+    "SHsuperCM"
+  ],
+  "contact": {
+    "repo": "https://github.com/SHsuperCM/GamepadBoat"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "shcm.shsupercm.mods.gamepadboat.GamepadBoat"
+    ],
+    "modmenu": [
+      "shcm.shsupercm.mods.gamepadboat.GamepadBoat"
+    ]
+  },
+  "depends": {
+    "fabric": "*"
+  }
+}
